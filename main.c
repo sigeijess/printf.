@@ -3,10 +3,11 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * main - This is the Entry point
  *
- * Return: Always 0
+ * Return: Always 0 when successful
  */
+
 int main(void)
 {
     int len;
