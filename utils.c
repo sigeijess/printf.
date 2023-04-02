@@ -1,4 +1,4 @@
-#include "main.h" /* This is the header function (main.h) */
+#include "main.h" 
 
 /**
  * is_printable - Evaluates if a char is printable
@@ -23,7 +23,11 @@ int is_printable(char c)
  * Return: 3 when always successful
  */
 
+<<<<<<< HEAD
 int append_hexa_code(char ascii_code, char buffer[], int i)
+=======
+int append_hexa_code(char ascii_code, char buffer[], int i) 
+>>>>>>> b5df6770bf69f3cbbc517f59b82f92c9b9d2ec73
 {
 	char map_to[] = "0123456789ABCDEF";
 	/* The hexa format code is always 2 digits long */
