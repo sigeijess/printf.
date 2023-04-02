@@ -23,7 +23,7 @@ int is_printable(char c)
  * Return: 3 when always successful
  */
 
-int append_hexa_code(char ascii_code, char buffer[], int i) // Prototypes
+int append_hexa_code(char ascii_code, char buffer[], int i)
 {
 	char map_to[] = "0123456789ABCDEF";
 	/* The hexa format code is always 2 digits long */
